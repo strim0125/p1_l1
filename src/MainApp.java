@@ -1,8 +1,10 @@
 public class MainApp {
     public static void main(String[] args) {
-        test1();
+        fruts();
     }
-    public static void test1() {
-        System.out.println("Hellow Wolrd !!!");
+    public static void fruts() {
+        System.out.println("Orange");
+        System.out.println("Banana");
+        System.out.println("Apple");
     }
 }
