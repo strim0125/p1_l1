@@ -2,6 +2,7 @@ public class MainApp {
     public static void main(String[] args) {
         fruts();
         checkSumSign(10, -130);
+        printColor(80);
     }
     public static void fruts() {
         System.out.println("Orange");
@@ -18,4 +19,12 @@ public class MainApp {
         };
     }
 
+    public static void printColor(int value){
+        if(value <= 0){
+            System.out.println("Красный");
+        } else if ( value > 0 || value <= 100){
+            System.out.println("Жёлтый");
+        } else {
+            System.out.println("Зелёный");
+    };
 }
